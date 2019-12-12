@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WeatherApp_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="WeatherApp" Height="600" Width="900">
+    <Grid  Background="#8c94a1">
+        <Button Content="CHECK WEATHER" HorizontalAlignment="Left" Margin="519,278,0,0" VerticalAlignment="Top" Width="264" Height="36" FontWeight="Bold" Click="Button_Click"/>
+        <Label Content="&#xD;&#xA;WEATHER APP" HorizontalAlignment="Left" Margin="107,42,0,0" VerticalAlignment="Top" Height="156" Width="375" FontSize="48" FontWeight="Bold" Background="{x:Null}" Foreground="White"/>
     </Grid>
 </Window>

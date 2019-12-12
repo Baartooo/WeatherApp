@@ -15,3 +15,26 @@ D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherA
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherAppWPF.csproj.CopyComplete
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF.exe
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF.pdb
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\WeatherApp WPF.exe.config
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\WeatherApp WPF.exe
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\WeatherApp WPF.pdb
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\WeatherAppClassLibrary.dll
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\WeatherAppClassLibrary.pdb
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\WeatherAppClassLibrary.dll.config
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherAppWPF.csprojAssemblyReference.cache
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\App.g.cs
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF_MarkupCompile.cache
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF_MarkupCompile.lref
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\MainWindow.baml
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF.g.resources
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp_WPF.Properties.Resources.resources
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherAppWPF.csproj.GenerateResource.cache
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherAppWPF.csproj.CoreCompileInputs.cache
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherAppWPF.csproj.CopyComplete
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF.exe
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF.pdb

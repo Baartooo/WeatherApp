@@ -9,3 +9,15 @@ D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherA
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\Newtonsoft.Json.xml
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\System.Net.Http.Formatting.xml
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.csproj.CopyComplete
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\WeatherAppClassLibrary.dll.config
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\WeatherAppClassLibrary.dll
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\WeatherAppClassLibrary.pdb
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.csprojAssemblyReference.cache
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.csproj.CopyComplete
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.dll
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.pdb

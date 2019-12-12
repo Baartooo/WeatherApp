@@ -1,0 +1,18 @@
+﻿<Window x:Class="WeatherApp_WPF.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeatherApp_WPF"
+        mc:Ignorable="d"
+        Title="Settings" Height="350" Width="300">
+    <Grid Background="#8c94a1">
+        <StackPanel Margin="21,55,20,55">
+            <Label Foreground="White" Content="City:"/>
+            <TextBox />
+            <Label Foreground="White" Content="Date:"/>
+            <DatePicker/>
+            <Button Margin="20" Content="SEARCH"/>
+        </StackPanel>
+    </Grid>
+</Window>
