@@ -42,6 +42,11 @@ namespace WeatherApp_WPF
             TodayMaxTemp.Content = todayWeather.max_temp;
             TodayTemp.Content = todayWeather.the_temp;
             TodayAtm.Content = todayWeather.air_pressure;
+
+            //doesnt work
+            BitmapImage weatherImg = new BitmapImage();
+            weatherImg.UriSource = new Uri($"/img/{todayWeather.weather_state_abbr}.png");
+            TodayWeatherImage.Source=weatherImg;
         }
     }
 }

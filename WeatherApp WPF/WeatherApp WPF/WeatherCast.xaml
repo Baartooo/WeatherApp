@@ -25,7 +25,7 @@
         <Image Margin="198,214,528,139" Source=" " Stretch="Fill"/>
         <Image Margin="25,203,703,152" Source=" " Stretch="Fill"/>
         <Image Margin="375,216,353,139" Source=" " Stretch="Fill"/>
-        <Image Margin="592,145,69,162" Source=" " Stretch="Fill" RenderTransformOrigin="0.35,0.496"/>
+        <Image Margin="560,117,101,190" Source=" " Stretch="Fill" RenderTransformOrigin="0.35,0.496" x:Name="TodayWeatherImage"/>
         <Label Content=" MAX TEMP:" HorizontalAlignment="Left" Margin="560,371,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="90" x:Name="TodayMaxTemp"/>
         <Label Content=" ATM:" HorizontalAlignment="Left" Margin="600,430,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="50" x:Name="TodayAtm"/>
         <Button Content="SEARCH AGAIN" HorizontalAlignment="Left" Margin="264,379,0,0" VerticalAlignment="Top" Width="151" Height="30" FontWeight="Bold"/>

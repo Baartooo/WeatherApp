@@ -121,5 +121,17 @@
       <Name>WeatherAppClassLibrary</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\c.png" />
+    <Resource Include="img\h.png" />
+    <Resource Include="img\hc.png" />
+    <Resource Include="img\hr.png" />
+    <Resource Include="img\lc.png" />
+    <Resource Include="img\lr.png" />
+    <Resource Include="img\s.png" />
+    <Resource Include="img\sl.png" />
+    <Resource Include="img\sn.png" />
+    <Resource Include="img\t.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
