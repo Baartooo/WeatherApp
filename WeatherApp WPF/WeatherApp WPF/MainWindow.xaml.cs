@@ -24,5 +24,12 @@ namespace WeatherApp_WPF
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 settingsWindow = new Window1();
+            settingsWindow.Show();
+            this.Close();
+        }
     }
 }

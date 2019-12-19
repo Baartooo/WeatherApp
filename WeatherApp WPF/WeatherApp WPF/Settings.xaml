@@ -9,10 +9,10 @@
     <Grid Background="#8c94a1">
         <StackPanel Margin="21,55,20,55">
             <Label Foreground="White" Content="City:"/>
-            <TextBox />
+            <TextBox x:Name="CityNameTextBox"/>
             <Label Foreground="White" Content="Date:"/>
-            <DatePicker/>
-            <Button Margin="20" Content="SEARCH"/>
+            <DatePicker x:Name="DatePicker"/>
+            <Button Margin="20" Content="SEARCH" Click="SearchWeather"/>
         </StackPanel>
     </Grid>
 </Window>

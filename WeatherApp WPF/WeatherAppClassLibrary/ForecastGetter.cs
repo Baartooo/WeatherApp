@@ -11,7 +11,7 @@ namespace WeatherAppClassLibrary
 {
     public static class ForecastGetter
     {
-        public static async Task GetForecastForNextFiveDays(string cityName)
+        public static async Task<Forecast> GetForecastForNextFiveDays(string cityName)
         {
             int woeid;
             string weatherJSON;
@@ -27,6 +27,8 @@ namespace WeatherAppClassLibrary
             DataSet weatherDataSet = JsonConvert.DeserializeObject<DataSet>(weatherJSON);
             DataTable consolidated_weather = weatherDataSet.Tables["consolidated_weather"];
             Forecast forecast = new Forecast(consolidated_weather);
+
+            return forecast;
         }
     }
 }

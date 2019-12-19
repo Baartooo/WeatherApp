@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using WeatherAppClassLibrary;
 
 namespace WeatherApp_WPF
 {
@@ -22,6 +23,21 @@ namespace WeatherApp_WPF
         public WeatherCast()
         {
             InitializeComponent();
+        }
+
+        public async Task GetWeather(string cityName)
+        {
+            Forecast forecast = await ForecastGetter.GetForecastForNextFiveDays(cityName);
+            CityCountryText.Content = cityName;
+
+            FillWeatherInformations(forecast);
+
+        }
+
+        private void FillWeatherInformations(Forecast forecast)
+        {
+            Weather todayWeather = forecast.GetTodayWeather();
+            TodayDate.Content = todayWeather.applicable_date;
         }
     }
 }

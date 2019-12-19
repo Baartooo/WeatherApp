@@ -24,14 +24,11 @@ namespace WeatherAppClassLibrary
                 };
                 forecast.Add(weather);
             }
-                WriteForecast();
         }
-        public void WriteForecast()
+
+        public Weather GetTodayWeather()
         {
-            foreach (Weather weather in forecast)
-            {
-                Console.WriteLine(weather);
-            }
+            return forecast[0];
         }
     }
 }

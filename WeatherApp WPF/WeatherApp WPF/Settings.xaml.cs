@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,21 @@ namespace WeatherApp_WPF
         public Window1()
         {
             InitializeComponent();
+        }
+
+        private void SearchWeather(object sender, RoutedEventArgs e)
+        {
+            if (CityNameTextBox.Text == "")
+                throw new ArgumentException("CityName box cannot be empty");
+
+            WeatherCast weatherCastWindow = new WeatherCast();
+            string cityName = CityNameTextBox.Text;
+
+            TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
+            cityName = textInfo.ToTitleCase(cityName);
+
+            weatherCastWindow.GetWeather(cityName);
+            weatherCastWindow.Show();
         }
     }
 }
