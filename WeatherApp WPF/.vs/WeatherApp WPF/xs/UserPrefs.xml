@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{71C86B4F-DA62-4996-9D8E-C6B87D1A3B4B}|Default">
+  <MonoDevelop.Ide.ItemProperties.WeatherAppConsole PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherAppClassLibrary/Forecast.cs">
+    <Files>
+      <File FileName="WeatherApp WPF/App.xaml" Line="1" Column="1" />
+      <File FileName="WeatherApp WPF/MainWindow.xaml" Line="1" Column="1" />
+      <File FileName="WeatherApp WPF/packages.config" Line="1" Column="1" />
+      <File FileName="WeatherApp WPF/Settings.xaml" Line="1" Column="1" />
+      <File FileName="WeatherApp WPF/App.config" Line="1" Column="1" />
+      <File FileName="WeatherApp WPF/WeatherCast.xaml" Line="1" Column="1" />
+      <File FileName="WeatherAppClassLibrary/ForecastGetter.cs" Line="1" Column="1" />
+      <File FileName="WeatherAppClassLibrary/Location.cs" Line="1" Column="1" />
+      <File FileName="WeatherAppClassLibrary/Weather.cs" Line="1" Column="1" />
+      <File FileName="WeatherAppClassLibrary/Forecast.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WeatherApp WPF" expanded="True">
+            <Node name="WeatherAppClassLibrary" expanded="True" />
+            <Node name="WeatherAppConsole" expanded="True" />
+            <Node name="WeatherAppWPF" expanded="True">
+              <Node name="Properties" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
