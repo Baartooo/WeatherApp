@@ -20,7 +20,11 @@ namespace WeatherAppClassLibrary
                 {
                     weather_state_name = Convert.ToString(row["weather_state_name"]),
                     applicable_date = Convert.ToString(row["applicable_date"]),
-                    the_temp = Convert.ToDouble(row["the_temp"])
+                    the_temp = Convert.ToDouble(row["the_temp"]),
+                    min_temp = Convert.ToDouble(row["min_temp"]),
+                    max_temp = Convert.ToDouble(row["max_temp"]),
+                    air_pressure = Convert.ToDouble(row["air_pressure"]),
+                    weather_state_abbr = Convert.ToString(row["weather_state_abbr"])
                 };
                 forecast.Add(weather);
             }

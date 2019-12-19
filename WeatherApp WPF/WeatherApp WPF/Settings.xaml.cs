@@ -38,6 +38,7 @@ namespace WeatherApp_WPF
 
             weatherCastWindow.GetWeather(cityName);
             weatherCastWindow.Show();
+            this.Close();
         }
     }
 }

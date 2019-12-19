@@ -38,6 +38,10 @@ namespace WeatherApp_WPF
         {
             Weather todayWeather = forecast.GetTodayWeather();
             TodayDate.Content = todayWeather.applicable_date;
+            TodayMinTemp.Content = todayWeather.min_temp;
+            TodayMaxTemp.Content = todayWeather.max_temp;
+            TodayTemp.Content = todayWeather.the_temp;
+            TodayAtm.Content = todayWeather.air_pressure;
         }
     }
 }
