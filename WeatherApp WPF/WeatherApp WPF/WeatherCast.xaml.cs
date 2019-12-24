@@ -43,10 +43,9 @@ namespace WeatherApp_WPF
             TodayTemp.Content = todayWeather.the_temp;
             TodayAtm.Content = todayWeather.air_pressure;
 
-            //doesnt work
-            BitmapImage weatherImg = new BitmapImage();
-            weatherImg.UriSource = new Uri($"/img/{todayWeather.weather_state_abbr}.png");
-            TodayWeatherImage.Source=weatherImg;
+            Uri uri = new Uri("https://www.metaweather.com//static/img/weather/png/64/" + todayWeather.weather_state_abbr + ".png");
+            TodayWeatherImage.Source = new BitmapImage(uri);
+
         }
     }
 }

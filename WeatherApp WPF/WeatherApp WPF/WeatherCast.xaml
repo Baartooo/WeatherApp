@@ -22,10 +22,10 @@
         <Label Content=" MIN TEMP:" HorizontalAlignment="Left" Margin="560,341,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="90" x:Name="TodayMinTemp"/>
         <Label Content="TEMP:" HorizontalAlignment="Left" Margin="175,299,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Width="55"/>
         <Label Content="TEMP:" HorizontalAlignment="Left" Margin="25,299,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Width="55"/>
-        <Image Margin="198,214,528,139" Source=" " Stretch="Fill"/>
-        <Image Margin="25,203,703,152" Source=" " Stretch="Fill"/>
-        <Image Margin="375,216,353,139" Source=" " Stretch="Fill"/>
-        <Image Margin="560,117,101,190" Source=" " Stretch="Fill" RenderTransformOrigin="0.35,0.496" x:Name="TodayWeatherImage"/>
+        <Image Margin="198,214,528,139" Stretch="Fill"/>
+        <Image Margin="25,203,703,152" Stretch="Fill"/>
+        <Image Margin="375,216,353,139" Stretch="Fill"/>
+        <Image Margin="560,117,113,299"  Stretch="Fill" x:Name="TodayWeatherImage" />
         <Label Content=" MAX TEMP:" HorizontalAlignment="Left" Margin="560,371,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="90" x:Name="TodayMaxTemp"/>
         <Label Content=" ATM:" HorizontalAlignment="Left" Margin="600,430,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="50" x:Name="TodayAtm"/>
         <Button Content="SEARCH AGAIN" HorizontalAlignment="Left" Margin="264,379,0,0" VerticalAlignment="Top" Width="151" Height="30" FontWeight="Bold"/>
