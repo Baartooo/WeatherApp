@@ -47,3 +47,7 @@ D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherA
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\System.Net.Http.Formatting.xml
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Settings.baml
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherCast.baml
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Settings.g.cs
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherCast.g.cs
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Settings.baml
+C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherCast.baml

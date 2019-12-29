@@ -37,15 +37,21 @@ namespace WeatherApp_WPF
         private void FillWeatherInformations(Forecast forecast)
         {
             Weather todayWeather = forecast.GetTodayWeather();
-            TodayDate.Content = todayWeather.applicable_date;
-            TodayMinTemp.Content = todayWeather.min_temp;
-            TodayMaxTemp.Content = todayWeather.max_temp;
-            TodayTemp.Content = todayWeather.the_temp;
-            TodayAtm.Content = todayWeather.air_pressure;
+            TodayDate.Content = ("Date:  " + todayWeather.applicable_date);
+            TodayMaxTemp.Content = ("Max Temp:  " + Math.Round(todayWeather.max_temp,1) + "°C");
+            TodayTemp.Content = ("Temp:  " + Math.Round(todayWeather.the_temp,1) + "°C");
+            TodayAtm.Content = ("Atm:  " + Math.Round(todayWeather.air_pressure) + " hPa");
+            TodayMinTemp.Content = ("Min Temp:  " + Math.Round(todayWeather.min_temp,1) + "°C");
 
             Uri uri = new Uri("https://www.metaweather.com//static/img/weather/png/64/" + todayWeather.weather_state_abbr + ".png");
             TodayWeatherImage.Source = new BitmapImage(uri);
 
+        }
+        private void SearchAgain_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 settingsWindow = new Window1();
+            settingsWindow.Show();
+            this.Close();
         }
     }
 }
