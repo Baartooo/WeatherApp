@@ -39,7 +39,11 @@ namespace WeatherApp_WPF
             FillTodaysWeather(forecast);
             FillFirstDaysWeather(forecast);
             FillSecondDaysWeather(forecast);
+            FillThirdDaysWeather(forecast);
+        }
 
+        private void FillThirdDaysWeather(Forecast forecast)
+        {
             Weather thirdDaysWeather = forecast.GetThirdDaysWeather();
             DayThreeDate.Content = ("Date:  " + thirdDaysWeather.applicable_date);
             DayThreeTemp.Content = ("Temp:  " + Math.Round(thirdDaysWeather.the_temp, 1) + "°C");
@@ -47,7 +51,6 @@ namespace WeatherApp_WPF
 
             Uri uri = new Uri("https://www.metaweather.com//static/img/weather/png/" + thirdDaysWeather.weather_state_abbr + ".png");
             DayThreeWeatherImage.Source = new BitmapImage(uri);
-
         }
 
         private void FillSecondDaysWeather(Forecast forecast)
