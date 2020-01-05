@@ -23,11 +23,7 @@ namespace WeatherAppClassLibrary
                 string json = await Task.Run(() => client.DownloadString("https://www.metaweather.com/api/location/" + woeid + '/'));
                 weatherJSON = json;
             }
-            weatherJSON = weatherJSON.Remove(weatherJSON.IndexOf(']') + 1) + '}';
-            DataSet weatherDataSet = JsonConvert.DeserializeObject<DataSet>(weatherJSON);
-            DataTable consolidated_weather = weatherDataSet.Tables["consolidated_weather"];
-            Forecast forecast = new Forecast(consolidated_weather);
-
+            Forecast forecast = JsonConvert.DeserializeObject<Forecast>(weatherJSON);
             return forecast;
         }
     }

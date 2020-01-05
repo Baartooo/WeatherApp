@@ -9,30 +9,12 @@ namespace WeatherAppClassLibrary
 {
     public class Forecast
     {
-        public List<Weather> forecast;
+        public List<Weather> consolidated_weather;
+        public Parent parent;
 
-        public Forecast(DataTable consolidated_weather)
-        {
-            forecast = new List<Weather>();
-            foreach (DataRow row in consolidated_weather.Rows)
-            {
-                Weather weather = new Weather()
-                {
-                    weather_state_name = Convert.ToString(row["weather_state_name"]),
-                    applicable_date = Convert.ToString(row["applicable_date"]),
-                    the_temp = Convert.ToDouble(row["the_temp"]),
-                    min_temp = Convert.ToDouble(row["min_temp"]),
-                    max_temp = Convert.ToDouble(row["max_temp"]),
-                    air_pressure = Convert.ToDouble(row["air_pressure"]),
-                    weather_state_abbr = Convert.ToString(row["weather_state_abbr"])
-                };
-                forecast.Add(weather);
-            }
-        }
-
-        public Weather GetTodaysWeather() => forecast[0];
-        public Weather GetFirstDaysWeather() => forecast[1];
-        public Weather GetSecondDaysWeather() => forecast[2];
-        public Weather GetThirdDaysWeather() => forecast[3];
+        public Weather GetTodaysWeather() => consolidated_weather[0];
+        public Weather GetFirstDaysWeather() => consolidated_weather[1];
+        public Weather GetSecondDaysWeather() => consolidated_weather[2];
+        public Weather GetThirdDaysWeather() => consolidated_weather[3];
     }
 }

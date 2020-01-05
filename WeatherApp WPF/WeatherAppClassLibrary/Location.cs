@@ -21,8 +21,12 @@ namespace WeatherAppClassLibrary
                 string json = await Task.Run(() => client.DownloadString("https://www.metaweather.com/api/location/search/?query=" + cityName));
                 locationJSON = json;
             }
-            List<Location> possibleLocations = JsonConvert.DeserializeObject<List<Location>>(locationJSON);            
-            return possibleLocations[0].woeid;
+            List<Location> possibleLocations = JsonConvert.DeserializeObject<List<Location>>(locationJSON);
+
+            if (possibleLocations.Count == 1)
+                return possibleLocations[0].woeid;
+            else
+                throw new Exception("TODO handling more than one locations");
         }
     }
 }

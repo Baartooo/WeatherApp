@@ -28,7 +28,7 @@ namespace WeatherApp_WPF
         public async Task GetWeather(string cityName)
         {
             Forecast forecast = await ForecastGetter.GetForecastForNextFiveDays(cityName);
-            CityCountryText.Content = cityName;
+            CityCountryText.Content = $"{cityName}, {forecast.parent.title}";
 
             FillWeatherInformation(forecast);
 
@@ -40,6 +40,7 @@ namespace WeatherApp_WPF
             FillFirstDaysWeather(forecast);
             FillSecondDaysWeather(forecast);
             FillThirdDaysWeather(forecast);
+
         }
 
         private void FillThirdDaysWeather(Forecast forecast)
