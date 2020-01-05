@@ -14,7 +14,7 @@ namespace WeatherAppClassLibrary
         public Forecast(DataTable consolidated_weather)
         {
             forecast = new List<Weather>();
-            foreach(DataRow row in consolidated_weather.Rows)
+            foreach (DataRow row in consolidated_weather.Rows)
             {
                 Weather weather = new Weather()
                 {
@@ -30,9 +30,9 @@ namespace WeatherAppClassLibrary
             }
         }
 
-        public Weather GetTodayWeather()
-        {
-            return forecast[0];
-        }
+        public Weather GetTodaysWeather() => forecast[0];
+        public Weather GetFirstDaysWeather() => forecast[1];
+        public Weather GetSecondDaysWeather() => forecast[2];
+        public Weather GetThirdDaysWeather() => forecast[3];
     }
 }

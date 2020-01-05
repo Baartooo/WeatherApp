@@ -29,6 +29,7 @@ namespace WeatherApp_WPF
         {
             Window1 settingsWindow = new Window1();
             settingsWindow.Show();
+            FocusManager.SetFocusedElement(settingsWindow, settingsWindow.CityNameTextBox);
             this.Close();
         }
     }
