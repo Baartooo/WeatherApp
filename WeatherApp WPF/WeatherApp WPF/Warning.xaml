@@ -1,0 +1,14 @@
+﻿<Window x:Class="WeatherApp_WPF.Warning"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeatherApp_WPF"
+        mc:Ignorable="d"
+        Title="Warning" Height="250" Width="450">
+    <Grid Background="#8c94a1">
+        <Label Content=" " HorizontalAlignment="Left" Margin="114,65,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="309" x:Name="WarningContent" Height="81"/>
+        <Image Margin="41,88,357,89" Stretch="Fill" x:Name="xMarkIcon" Source="img/warning.png"/>
+        <Button Margin="165,176,179,20" Content="TRY AGAIN" Click="TryAgain"/>
+    </Grid>
+</Window>

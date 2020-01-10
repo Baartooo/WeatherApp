@@ -28,7 +28,14 @@ namespace WeatherApp_WPF
         private void SearchWeather(object sender, RoutedEventArgs e)
         {
             if (CityNameTextBox.Text == "")
+            {
                 throw new ArgumentException("CityName box cannot be empty");
+              //  Window1 warningWindow = new Window1();
+               // warningWindow.Show();
+
+
+            }
+               
 
             WeatherCast weatherCastWindow = new WeatherCast();
             string cityName = CityNameTextBox.Text;
@@ -38,6 +45,10 @@ namespace WeatherApp_WPF
 
             weatherCastWindow.GetWeather(cityName);
             weatherCastWindow.Show();
+            this.Close();
+            Window1 settingsWindow = new Window1();
+            settingsWindow.Show();
+            FocusManager.SetFocusedElement(settingsWindow, settingsWindow.CityNameTextBox);
             this.Close();
         }
     }

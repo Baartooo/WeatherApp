@@ -7,34 +7,34 @@
         mc:Ignorable="d"
         Title="WeatherCast" Height="500" Width="800">
     <Grid Background="#8c94a1" Margin="0,-15,0.333,-29.333">
-        <Label Content="CITY, COUNTRY" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="552" FontSize="48" FontWeight="Bold" Foreground="#FFF7F7F7" x:Name="CityCountryText" Margin="10,26,0,0"/>
+        <Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="552" FontSize="48" FontWeight="Bold" Foreground="#FFF7F7F7" x:Name="CityCountryText" Margin="10,26,0,0"/>
 
         <Label Content="TODAY" HorizontalAlignment="Left" Margin="608,52,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24" FontWeight="Bold" Width="90"/>
-        <Label Content="DATE" HorizontalAlignment="Left" Margin="554,124,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" FontWeight="Bold" Width="182" x:Name="TodayDate"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="554,124,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" FontWeight="Bold" Width="182" x:Name="TodayDate"/>
         <Image Margin="554,169,84,190"  Stretch="Fill" x:Name="TodayWeatherImage" />
-        <Label Content=" MIN TEMP:" HorizontalAlignment="Left" Margin="554,401,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="166" x:Name="TodayMinTemp"/>
-        <Label Content=" MAX TEMP:" HorizontalAlignment="Left" Margin="554,430,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="166" x:Name="TodayMaxTemp"/>
-        <Label Content=" TEMP:" HorizontalAlignment="Left" Margin="554,343,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="134" x:Name="TodayTemp"/>
-        <Label Content=" ATM:" HorizontalAlignment="Left" Margin="554,372,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="126" x:Name="TodayAtm"/>
+        <Label Content=" " HorizontalAlignment="Left" Margin="554,401,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="166" x:Name="TodayMinTemp"/>
+        <Label Content=" " HorizontalAlignment="Left" Margin="554,430,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="166" x:Name="TodayMaxTemp"/>
+        <Label Content=" " HorizontalAlignment="Left" Margin="554,343,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="134" x:Name="TodayTemp"/>
+        <Label Content=" " HorizontalAlignment="Left" Margin="554,372,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="126" x:Name="TodayAtm"/>
 
         <Label Content="DAY 1" HorizontalAlignment="Left" Margin="10,146,0,0" VerticalAlignment="Top" Foreground="White" FontSize="20" FontWeight="Bold" Width="125"/>
-        <Label Content="DATE" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="147" x:Name="DayOneDate"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="147" x:Name="DayOneDate"/>
         <Image Margin="10,223,683,191" Stretch="Fill" x:Name="DayOneWeatherImage"/>
-        <Label Content="TEMP:" HorizontalAlignment="Left" Margin="10,325,0,0" VerticalAlignment="Top" Foreground="White" FontSize="12" FontWeight="Bold" Width="100" x:Name="DayOneTemp"/>
-        <Label Content="ATM:" HorizontalAlignment="Left" Margin="10,359,0,0" VerticalAlignment="Top" Foreground="White" FontSize="12" FontWeight="Bold" Width="100" x:Name="DayOneAtm"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="10,325,0,0" VerticalAlignment="Top" Foreground="White" FontSize="12" FontWeight="Bold" Width="100" x:Name="DayOneTemp"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="10,359,0,0" VerticalAlignment="Top" Foreground="White" FontSize="12" FontWeight="Bold" Width="100" x:Name="DayOneAtm"/>
 
 
         <Label Content="DAY 2" HorizontalAlignment="Left" Margin="175,146,0,0" VerticalAlignment="Top" Foreground="White" FontSize="20" FontWeight="Bold" Width="135"/>
-        <Label Content="DATE" HorizontalAlignment="Left" Margin="175,185,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="202" x:Name="DayTwoDate"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="175,185,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="202" x:Name="DayTwoDate"/>
         <Image Margin="175,224,518,190" Stretch="Fill" x:Name="DayTwoWeatherImage"/>
-        <Label Content="TEMP:" HorizontalAlignment="Left" Margin="175,325,0,0" VerticalAlignment="Top" Foreground="White" FontSize="12" FontWeight="Bold" Width="100" x:Name="DayTwoTemp" RenderTransformOrigin="0.206,0.151"/>
-        <Label Content="ATM:" HorizontalAlignment="Left" Margin="175,359,0,0" VerticalAlignment="Top" Foreground="White" FontSize="12" FontWeight="Bold" Width="100" x:Name="DayTwoAtm"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="175,325,0,0" VerticalAlignment="Top" Foreground="White" FontSize="12" FontWeight="Bold" Width="100" x:Name="DayTwoTemp" RenderTransformOrigin="0.206,0.151"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="175,359,0,0" VerticalAlignment="Top" Foreground="White" FontSize="12" FontWeight="Bold" Width="100" x:Name="DayTwoAtm"/>
 
         <Label Content="DAY 3" HorizontalAlignment="Left" Margin="360,146,0,0" VerticalAlignment="Top" Foreground="White" FontSize="20" FontWeight="Bold" Width="125"/>
-        <Label Content="DATE" HorizontalAlignment="Left" Margin="360,185,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="202" x:Name="DayThreeDate"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="360,185,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="202" x:Name="DayThreeDate"/>
         <Image Margin="360,223,333,191" Stretch="Fill" x:Name="DayThreeWeatherImage"/>
-        <Label Content="TEMP:" HorizontalAlignment="Left" Margin="360,325,0,0" VerticalAlignment="Top" Foreground="White" FontSize="12" FontWeight="Bold" Width="100" x:Name="DayThreeTemp" RenderTransformOrigin="0.473,0.663"/>
-        <Label Content="ATM:" HorizontalAlignment="Left" Margin="360,359,0,0" VerticalAlignment="Top" Foreground="White" FontSize="12" FontWeight="Bold" Width="100" x:Name="DayThreeAtm"/>
+        <Label Content=" " HorizontalAlignment="Left" Margin="360,325,0,0" VerticalAlignment="Top" Foreground="White" FontSize="12" FontWeight="Bold" Width="100" x:Name="DayThreeTemp" RenderTransformOrigin="0.473,0.663"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="360,359,0,0" VerticalAlignment="Top" Foreground="White" FontSize="12" FontWeight="Bold" Width="100" x:Name="DayThreeAtm"/>
 
         <Button Content="SEARCH AGAIN" HorizontalAlignment="Left" Margin="309,439,0,0" VerticalAlignment="Top" Width="151" Height="30" FontWeight="Bold" Click="SearchAgain_Click"/>
         

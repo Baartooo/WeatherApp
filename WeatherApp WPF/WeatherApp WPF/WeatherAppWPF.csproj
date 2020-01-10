@@ -64,6 +64,9 @@
     <Compile Include="Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Warning.xaml.cs">
+      <DependentUpon>Warning.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WeatherCast.xaml.cs">
       <DependentUpon>WeatherCast.xaml</DependentUpon>
     </Compile>
@@ -80,6 +83,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warning.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -132,6 +139,9 @@
     <Resource Include="img\sl.png" />
     <Resource Include="img\sn.png" />
     <Resource Include="img\t.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\warning.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
