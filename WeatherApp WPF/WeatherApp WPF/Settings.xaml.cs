@@ -27,6 +27,8 @@ namespace WeatherApp_WPF
 
         private void SearchWeather(object sender, RoutedEventArgs e)
         {
+
+
             DateTime? selectedDate = DatePicker.SelectedDate;
             DateTime todayDate = DateTime.Now.Date;
 
@@ -48,21 +50,15 @@ namespace WeatherApp_WPF
             else
                 weatherCastWindow.GetWeather(cityName);
 
-            weatherCastWindow.Show();
-            this.Close();
+                weatherCastWindow.Show();
+                this.Close();
 
             if (CityNameTextBox.Text == "")
             {
                 throw new ArgumentException("CityName box cannot be empty");
                 //  Window1 warningWindow = new Window1();
                 // warningWindow.Show();
-
-
             }
-
-
-
-
 
         }
     }

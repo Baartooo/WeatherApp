@@ -18,7 +18,10 @@ namespace WeatherAppClassLibrary
             Location location = new Location();
             woeid = await Task.Run(() => location.ConvertCityNameToId(cityName));
 
-            using(WebClient client = new WebClient())
+            if (woeid == 0)
+                return null;
+
+            using (WebClient client = new WebClient())
             {
                 string json = await Task.Run(() => client.DownloadString("https://www.metaweather.com/api/location/" + woeid + '/'));
                 weatherJSON = json;
@@ -32,6 +35,9 @@ namespace WeatherAppClassLibrary
             string weatherJSON;
             Location location = new Location();
             woeid = await Task.Run(() => location.ConvertCityNameToId(cityName));
+
+            if (woeid == 0)
+                return null;
 
             using (WebClient client = new WebClient())
             {

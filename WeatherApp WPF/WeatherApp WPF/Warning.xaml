@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="Warning" Height="250" Width="450">
     <Grid Background="#8c94a1">
-        <Label Content=" " HorizontalAlignment="Left" Margin="114,65,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Width="309" x:Name="WarningContent" Height="81"/>
-        <Image Margin="41,88,357,89" Stretch="Fill" x:Name="xMarkIcon" Source="img/warning.png"/>
-        <Button Margin="165,176,179,20" Content="TRY AGAIN" Click="TryAgain"/>
+        <Label Content="" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="87,50,0,0" VerticalAlignment="Top" Foreground="White" FontSize="20" FontWeight="Bold" Width="347" x:Name="WarningContent" Height="81"/>
+        <Image Margin="41,76,357,101" Stretch="Fill" x:Name="xMarkIcon" Source="img/warning.png"/>
+        <Button Margin="172,168,172,22" Content="Try Again" Click="TryAgain"/>
     </Grid>
 </Window>

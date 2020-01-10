@@ -26,7 +26,7 @@ namespace WeatherAppClassLibrary
             if (possibleLocations.Count == 1)
                 return possibleLocations[0].woeid;
             else
-                throw new Exception("TODO handling more than one locations");
+                return 0;
         }
     }
 }

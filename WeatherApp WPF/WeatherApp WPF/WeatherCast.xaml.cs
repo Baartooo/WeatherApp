@@ -28,17 +28,34 @@ namespace WeatherApp_WPF
         public async Task GetWeather(string cityName)
         {
             Forecast forecast = await ForecastGetter.GetForecastForNextFiveDays(cityName);
-            CityCountryText.Content = $"{cityName}, {forecast.parent.title}";
-
-            FillWeatherInformation(forecast);
+            if (forecast == null)
+            {
+                Warning warning = new Warning(0);
+                this.Close();
+            }
+            else
+            {
+                CityCountryText.Content = $"{cityName}, {forecast.parent.title}";
+                FillWeatherInformation(forecast);
+            }
 
         }
         public async Task GetWeatherByDate(string cityName, string formattedDate)
         {
             string[] dateArray = formattedDate.Split('.');
             List<Weather> forecast = await ForecastGetter.GetForecastByDate(cityName, dateArray);
-            FillForecastByDateInformation(forecast);
-            CityCountryText.Content = $"{cityName}, {forecast[0].applicable_date}";
+
+            if (forecast == null)
+            {
+                Warning warning = new Warning(0);
+                this.Close();
+            }
+            else
+            {
+                CityCountryText.Content = $"{cityName}, {forecast[0].applicable_date}";
+                FillForecastByDateInformation(forecast);
+            }
+
         }
 
         private void FillForecastByDateInformation(List<Weather> forecast)

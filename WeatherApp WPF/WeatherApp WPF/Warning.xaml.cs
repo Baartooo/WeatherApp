@@ -19,17 +19,32 @@ namespace WeatherApp_WPF
     /// </summary>
     public partial class Warning : Window
     {
-        public Warning()
+        public Warning(int errorCode)
         {
             InitializeComponent();
+            FillErrorMessage(errorCode);
+            this.Show();
         }
 
-        private void TryAgain (object sender, RoutedEventArgs e)
+        private void TryAgain(object sender, RoutedEventArgs e)
         {
             Window1 settingsWindow = new Window1();
             settingsWindow.Show();
             FocusManager.SetFocusedElement(settingsWindow, settingsWindow.CityNameTextBox);
             this.Close();
+        }
+        private void FillErrorMessage(int errorCode)
+        {
+            switch (errorCode)
+            {
+                case 0:
+                    WarningContent.Content = "Wrong location name. Try again";
+                    break;
+                default:
+                    WarningContent.Content = "Default...";
+                    break;
+
+            }
         }
     }
 }
