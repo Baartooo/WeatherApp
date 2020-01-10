@@ -16,10 +16,22 @@ namespace WeatherAppClassLibrary
 
         public async Task<int>ConvertCityNameToId(string cityName)
         {
+            //In case of empty cityName
+            if (cityName == "")
+                cityName = "default";
+
             using(WebClient client=new WebClient())
             {
-                string json = await Task.Run(() => client.DownloadString("https://www.metaweather.com/api/location/search/?query=" + cityName));
-                locationJSON = json;
+                try
+                {
+                    string json = await Task.Run(() => client.DownloadString("https://www.metaweather.com/api/location/search/?query=" + cityName));
+                    locationJSON = json;
+                }
+                catch(WebException exception)
+                {
+                    return 0;
+                }
+
             }
             List<Location> possibleLocations = JsonConvert.DeserializeObject<List<Location>>(locationJSON);
 

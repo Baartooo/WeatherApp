@@ -11,6 +11,7 @@ namespace WeatherAppClassLibrary
     {
         public List<Weather> consolidated_weather;
         public Parent parent;
+        public int errorCode = -1;
 
         public Weather GetTodaysWeather() => consolidated_weather[0];
         public Weather GetFirstDaysWeather() => consolidated_weather[1];

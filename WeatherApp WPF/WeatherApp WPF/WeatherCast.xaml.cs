@@ -28,7 +28,7 @@ namespace WeatherApp_WPF
         public async Task GetWeather(string cityName)
         {
             Forecast forecast = await ForecastGetter.GetForecastForNextFiveDays(cityName);
-            if (forecast == null)
+            if (forecast==null)
             {
                 Warning warning = new Warning(0);
                 this.Close();

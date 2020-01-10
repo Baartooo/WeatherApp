@@ -41,7 +41,7 @@ namespace WeatherApp_WPF
             if (selectedDate.HasValue)
             {
                 if (selectedDate >= todayDate)
-                    throw new Exception("Date has to be from the past");
+                    throw new ArgumentOutOfRangeException("Date has to be from the past");
 
                 string formattedDate = selectedDate.Value.ToString("dd.MM.yyyy", CultureInfo.InvariantCulture);
                 weatherCastWindow.GetWeatherByDate(cityName, formattedDate);
@@ -52,13 +52,6 @@ namespace WeatherApp_WPF
 
                 weatherCastWindow.Show();
                 this.Close();
-
-            if (CityNameTextBox.Text == "")
-            {
-                throw new ArgumentException("CityName box cannot be empty");
-                //  Window1 warningWindow = new Window1();
-                // warningWindow.Show();
-            }
 
         }
     }
