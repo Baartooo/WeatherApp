@@ -27,15 +27,8 @@ namespace WeatherApp_WPF
 
         private void SearchWeather(object sender, RoutedEventArgs e)
         {
-            if (CityNameTextBox.Text == "")
-            {
-                throw new ArgumentException("CityName box cannot be empty");
-              //  Window1 warningWindow = new Window1();
-               // warningWindow.Show();
-
-
-            }
-               
+            DateTime? selectedDate = DatePicker.SelectedDate;
+            DateTime todayDate = DateTime.Now.Date;
 
             WeatherCast weatherCastWindow = new WeatherCast();
             string cityName = CityNameTextBox.Text;
@@ -43,13 +36,34 @@ namespace WeatherApp_WPF
             TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
             cityName = textInfo.ToTitleCase(cityName);
 
-            weatherCastWindow.GetWeather(cityName);
+            if (selectedDate.HasValue)
+            {
+                if (selectedDate >= todayDate)
+                    throw new Exception("Date has to be from the past");
+
+                string formattedDate = selectedDate.Value.ToString("dd.MM.yyyy", CultureInfo.InvariantCulture);
+                weatherCastWindow.GetWeatherByDate(cityName, formattedDate);
+
+            }
+            else
+                weatherCastWindow.GetWeather(cityName);
+
             weatherCastWindow.Show();
             this.Close();
-            Window1 settingsWindow = new Window1();
-            settingsWindow.Show();
-            FocusManager.SetFocusedElement(settingsWindow, settingsWindow.CityNameTextBox);
-            this.Close();
+
+            if (CityNameTextBox.Text == "")
+            {
+                throw new ArgumentException("CityName box cannot be empty");
+                //  Window1 warningWindow = new Window1();
+                // warningWindow.Show();
+
+
+            }
+
+
+
+
+
         }
     }
 }

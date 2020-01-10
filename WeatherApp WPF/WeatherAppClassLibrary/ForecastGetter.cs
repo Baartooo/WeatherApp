@@ -26,5 +26,21 @@ namespace WeatherAppClassLibrary
             Forecast forecast = JsonConvert.DeserializeObject<Forecast>(weatherJSON);
             return forecast;
         }
+        public static async Task<List<Weather>> GetForecastByDate(string cityName, string[] date)
+        {
+            int woeid;
+            string weatherJSON;
+            Location location = new Location();
+            woeid = await Task.Run(() => location.ConvertCityNameToId(cityName));
+
+            using (WebClient client = new WebClient())
+            {
+                string json = await Task.Run(() => client.DownloadString("https://www.metaweather.com/api/location/" + $"{woeid}/{date[2]}/{date[1]}/{date[0]}"));
+                weatherJSON = json;
+            }
+            List<Weather> forecast = JsonConvert.DeserializeObject<List<Weather>>(weatherJSON);
+
+            return forecast;
+        }
     }
 }

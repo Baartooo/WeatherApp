@@ -53,3 +53,5 @@ C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Setti
 C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherCast.baml
 C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Warning.g.cs
 C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Warning.baml
+D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Warning.g.cs
+D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Warning.baml

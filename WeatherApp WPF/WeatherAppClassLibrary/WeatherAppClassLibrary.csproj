@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="ConsolidatedWeather.cs" />
     <Compile Include="Forecast.cs" />
+    <Compile Include="ForecastByDate.cs" />
     <Compile Include="ForecastGetter.cs" />
     <Compile Include="Location.cs" />
     <Compile Include="Parent.cs" />
