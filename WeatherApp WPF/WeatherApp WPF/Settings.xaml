@@ -13,6 +13,7 @@
             <Label Foreground="White" Content="Date:"/>
             <DatePicker x:Name="DatePicker"/>
             <Button Margin="20" Content="SEARCH" Click="SearchWeather"/>
+           
         </StackPanel>
     </Grid>
 </Window>

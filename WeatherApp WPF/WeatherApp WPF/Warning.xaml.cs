@@ -41,7 +41,7 @@ namespace WeatherApp_WPF
                     WarningContent.Content = "Wrong location name. Try again";
                     break;
                 case 1:
-                    WarningContent.Content = "Wrong date: Date has to be from the past";
+                    WarningContent.Content = "Wrong date. Try again";
                     break;
                 default:
                     WarningContent.Content = "Default...";

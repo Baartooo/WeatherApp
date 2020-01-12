@@ -37,25 +37,25 @@ namespace WeatherApp_WPF
 
             TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
             cityName = textInfo.ToTitleCase(cityName);
-
+            weatherCastWindow.Show();
             if (selectedDate.HasValue)
             {
                 if (selectedDate > todayDate)
                 {
                     Warning warning = new Warning(1);
                     this.Close();
-                    // throw new ArgumentOutOfRangeException("Date has to be from the past");
-
-                    string formattedDate = selectedDate.Value.ToString("dd.MM.yyyy", CultureInfo.InvariantCulture);
-                    weatherCastWindow.GetWeatherByDate(cityName, formattedDate);
+                    weatherCastWindow.Close();
+                    // throw new ArgumentOutOfRangeException("Date has to be from the past");                
                 }
+                string formattedDate = selectedDate.Value.ToString("dd.MM.yyyy", CultureInfo.InvariantCulture);
+                weatherCastWindow.GetWeatherByDate(cityName, formattedDate);
+                this.Close();
             }
             else
+            {
                 weatherCastWindow.GetWeather(cityName);
-
-                weatherCastWindow.Show();
                 this.Close();
-
+            }
         }
     }
 }
