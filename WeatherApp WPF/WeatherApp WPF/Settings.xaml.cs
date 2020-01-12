@@ -40,12 +40,15 @@ namespace WeatherApp_WPF
 
             if (selectedDate.HasValue)
             {
-                if (selectedDate >= todayDate)
-                    throw new ArgumentOutOfRangeException("Date has to be from the past");
+                if (selectedDate > todayDate)
+                {
+                    Warning warning = new Warning(1);
+                    this.Close();
+                    // throw new ArgumentOutOfRangeException("Date has to be from the past");
 
-                string formattedDate = selectedDate.Value.ToString("dd.MM.yyyy", CultureInfo.InvariantCulture);
-                weatherCastWindow.GetWeatherByDate(cityName, formattedDate);
-
+                    string formattedDate = selectedDate.Value.ToString("dd.MM.yyyy", CultureInfo.InvariantCulture);
+                    weatherCastWindow.GetWeatherByDate(cityName, formattedDate);
+                }
             }
             else
                 weatherCastWindow.GetWeather(cityName);

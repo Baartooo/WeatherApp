@@ -6,8 +6,9 @@
         xmlns:local="clr-namespace:WeatherApp_WPF"
         mc:Ignorable="d"
         Title="WeatherApp" Height="600" Width="900">
-    <Grid  Background="#8c94a1">
-        <Button Content="CHECK WEATHER" HorizontalAlignment="Left" Margin="519,278,0,0" VerticalAlignment="Top" Width="264" Height="36" FontWeight="Bold" Click="GetStarted"/>
-        <Label Content="&#xD;&#xA;WEATHER APP" HorizontalAlignment="Left" Margin="107,42,0,0" VerticalAlignment="Top" Height="156" Width="375" FontSize="48" FontWeight="Bold" Background="{x:Null}" Foreground="White"/>
+    <Grid  Background="#8c94a1" Height="569" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="892">
+        <Button Content="CHECK WEATHER" HorizontalAlignment="Left" Margin="431,323,0,0" VerticalAlignment="Top" Width="264" Height="36" FontWeight="Bold" Click="GetStarted"/>
+        <Image Margin="0,92,580,0" Source="/img/weatherAppIcon.png" Stretch="Fill" HorizontalAlignment="Right" Width="224" Height="156" VerticalAlignment="Top" />
+        <Label Content="&#xD;&#xA;WEATHER APP" HorizontalAlignment="Left" Margin="412,0,0,342" VerticalAlignment="Bottom" Height="156" Width="375" FontSize="48" FontWeight="Bold" Background="{x:Null}" Foreground="White"/>
     </Grid>
 </Window>
