@@ -7,13 +7,17 @@
         mc:Ignorable="d"
         Title="Settings" Height="350" Width="300">
     <Grid Background="#8c94a1">
-        <StackPanel Margin="21,55,20,55">
+        <StackPanel Margin="21,45,20,65">
             <Label Foreground="White" Content="City:"/>
             <TextBox x:Name="CityNameTextBox"/>
-            <Label Foreground="White" Content="Date:"/>
+            <Label Foreground="White" Content="Date (optional) :"/>
             <DatePicker x:Name="DatePicker"/>
             <Button Margin="20" Content="SEARCH" Click="SearchWeather"/>
            
+
         </StackPanel>
+        <Image Margin="10,208,256,79" Source="/img/info_icon.png"   />
+        <Label Foreground="White" Content="If you don't pick any date," Height="26" Margin="43,208,41,85"/>
+        <Label Foreground="White" Content="you'll get forecast for next three days." Height="26" Margin="43,228,37,65"/>
     </Grid>
 </Window>
