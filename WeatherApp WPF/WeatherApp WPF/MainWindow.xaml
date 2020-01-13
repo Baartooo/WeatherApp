@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WeatherApp_WPF"
+        ResizeMode="NoResize"
         mc:Ignorable="d"
         Title="WeatherApp" Height="600" Width="900">
     <Grid  Background="#8c94a1" Height="569" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="892">
