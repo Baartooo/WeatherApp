@@ -19,3 +19,27 @@ D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherA
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\obj\Debug\WeatherAppUnitTests.csproj.CopyComplete
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\obj\Debug\WeatherAppUnitTests.dll
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\obj\Debug\WeatherAppUnitTests.pdb
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\WeatherAppUnitTests.dll.config
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\WeatherAppUnitTests.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\WeatherAppUnitTests.pdb
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\WeatherAppClassLibrary.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\WeatherAppClassLibrary.pdb
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\WeatherAppClassLibrary.dll.config
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\obj\Debug\WeatherAppUnitTests.csprojAssemblyReference.cache
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\obj\Debug\WeatherAppUnitTests.csproj.CopyComplete
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\obj\Debug\WeatherAppUnitTests.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\obj\Debug\WeatherAppUnitTests.pdb
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\pl\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll

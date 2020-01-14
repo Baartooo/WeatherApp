@@ -21,3 +21,12 @@ C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Deb
 C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.csproj.CopyComplete
 C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.dll
 C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.pdb
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\WeatherAppClassLibrary.dll.config
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\WeatherAppClassLibrary.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\WeatherAppClassLibrary.pdb
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.csprojAssemblyReference.cache
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.csproj.CopyComplete
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.pdb

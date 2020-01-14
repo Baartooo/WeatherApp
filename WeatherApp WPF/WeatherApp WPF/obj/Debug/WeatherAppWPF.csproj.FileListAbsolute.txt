@@ -55,3 +55,29 @@ C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Warni
 C:\Users\Maciej\Desktop\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Warning.baml
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Warning.g.cs
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Warning.baml
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\WeatherApp WPF.exe.config
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\WeatherApp WPF.exe
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\WeatherApp WPF.pdb
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\WeatherAppClassLibrary.dll
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\WeatherAppClassLibrary.pdb
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\WeatherAppClassLibrary.dll.config
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherAppWPF.csprojAssemblyReference.cache
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\MainWindow.g.cs
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Settings.g.cs
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Warning.g.cs
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherCast.g.cs
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\App.g.cs
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF_MarkupCompile.cache
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF_MarkupCompile.lref
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\MainWindow.baml
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Settings.baml
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\Warning.baml
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherCast.baml
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF.g.resources
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp_WPF.Properties.Resources.resources
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherAppWPF.csproj.GenerateResource.cache
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherAppWPF.csproj.CopyComplete
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF.exe
+C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF.pdb
