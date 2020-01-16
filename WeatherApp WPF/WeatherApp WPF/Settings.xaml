@@ -17,8 +17,8 @@
 
 
         </StackPanel>
-        <Image Margin="10,208,256,79" Source="/img/info_icon.png"   />
-        <Label Foreground="White" Content="If you don't pick any date," Height="26" Margin="43,208,41,85"/>
-        <Label Foreground="White" Content="you'll get forecast for next three days." Margin="43,230,36.667,53"/>
+        <Image Margin="27,207,233,80" Source="/img/info_icon.png"   />
+        <Label Foreground="White" Content="If you don't pick any date," Height="35" Margin="55,204,29,82"/>
+        <Label Foreground="White" Content="you'll get forecast for next three days." Height="35" Margin="45,225,20,61"/>
     </Grid>
 </Window>
