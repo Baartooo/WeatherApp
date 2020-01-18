@@ -9,8 +9,16 @@ using System.Threading.Tasks;
 
 namespace WeatherAppClassLibrary
 {
+    /// <summary>
+    /// The ForecastGetter class contains methods to get forecast for next 3 days or by date.
+    /// </summary>
     public static class ForecastGetter
     {
+        /// <summary>
+        /// Get Forecast for next 3 days.
+        /// </summary>
+        /// <param name="cityName">City name.</param>
+        /// <returns> Forecast.</returns>
         public static async Task<Forecast> GetForecastForNextFiveDays(string cityName)
         {
             int woeid;
@@ -29,6 +37,12 @@ namespace WeatherAppClassLibrary
             Forecast forecast = JsonConvert.DeserializeObject<Forecast>(weatherJSON);
             return forecast;
         }
+        /// <summary>
+        /// Get forecast by date.
+        /// </summary>
+        /// <param name="cityName">City name.</param>
+        /// <param name="date">Table of next 3 days.</param>
+        /// <returns></returns>
         public static async Task<List<Weather>> GetForecastByDate(string cityName, string[] date)
         {
             int woeid;

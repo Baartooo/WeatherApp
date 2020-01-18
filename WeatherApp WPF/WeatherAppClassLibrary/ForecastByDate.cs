@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace WeatherAppClassLibrary
 {
+    /// <summary>
+    /// The ForecastByDate class handle Weather list.
+    /// </summary>
     public class ForecastByDate
     {
         public List<Weather> forecast;

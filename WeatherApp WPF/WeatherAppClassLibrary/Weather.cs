@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace WeatherAppClassLibrary
 {
+    /// <summary>
+    /// The Weather class handle weathercast elements.
+    /// </summary>
     public class Weather
     {
         public string weather_state_name { get; set; }
