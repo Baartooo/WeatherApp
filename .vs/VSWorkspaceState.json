@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\WeatherApp WPF",
-    "\\WeatherApp WPF\\WeatherAppUnitTests"
+    "\\WeatherApp WPF\\WeatherApp WPF",
+    "\\WeatherApp WPF\\WeatherAppClassLibrary"
   ],
-  "SelectedNode": "\\WeatherApp WPF\\WeatherAppUnitTests\\ForecastTests.cs",
+  "SelectedNode": "\\WeatherApp WPF\\WeatherApp WPF.sln",
   "PreviewInSolutionExplorer": false
 }

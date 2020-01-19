@@ -44,7 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsolidatedWeather.cs" />
     <Compile Include="Forecast.cs" />
     <Compile Include="ForecastByDate.cs" />
     <Compile Include="ForecastGetter.cs" />
