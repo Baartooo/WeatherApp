@@ -14,14 +14,18 @@ namespace WeatherAppUnitTests
     {
         // expample weather list
 
-        public async Task<Forecast> GetWeather()
+        public async Task<Forecast> GetWeatherForLondon()
         {
-            var wrapper = new TestWrapper();
-            var wm = new WrapperMethod(wrapper);
+            string weatherJSON;
 
-            string cityName = "London";
+            using (WebClient client = new WebClient())
+            {
+                string json = await Task.Run(() => client.DownloadString("https://www.metaweather.com/api/location/" + 44418 + '/'));
+                weatherJSON = json;
+            }
+            Forecast forecast = JsonConvert.DeserializeObject<Forecast>(weatherJSON);
+            return forecast;
 
-            return wm.GetForecastForNextFiveDaysMockup(cityName).Result;
 
         }
 
@@ -66,30 +70,137 @@ namespace WeatherAppUnitTests
             }
         }
 
-        // TO DO
 
-        //[TestMethod]
-        //public void ReturnTodaysWeather()
-        //{
-            
 
-        //    Forecast forecastExample = GetWeather().Result;
+        [TestMethod]
+        public void ReturnTodaysWeather()
+        {
+          
+            Forecast forecastExample = GetWeatherForLondon().Result;
 
-        //    var wrapper = new TestWrapper();
-        //    var wm = new WrapperMethod(wrapper);
+            var wrapper = new TestWrapper();
+            var wm = new WrapperMethod(wrapper);
 
-        //    string cityName = "London";
+            string cityName = "London";
 
-        //   Forecast forecast = wm.GetForecastForNextFiveDaysMockup(cityName).Result;
+           Forecast forecast = wm.GetForecastForNextFiveDaysMockup(cityName).Result;
 
-        //    var result = forecast.consolidated_weather[0];
+            var weather_state_name = forecast.consolidated_weather[0].weather_state_name;
+            var max_tmp = forecast.consolidated_weather[0].max_temp;
+            var min_tmp = forecast.consolidated_weather[0].min_temp;
+            var tmp = forecast.consolidated_weather[0].the_temp;
+            var applicable_date = forecast.consolidated_weather[0].applicable_date;
+            var air_pressure = forecast.consolidated_weather[0].air_pressure;
 
-  
 
-        //    Assert.AreSame(forecastExample.consolidated_weather[0], result);
-              
 
-        //}
+            Assert.AreEqual(forecastExample.consolidated_weather[0].weather_state_name, weather_state_name);
+            Assert.AreEqual(forecastExample.consolidated_weather[0].max_temp, max_tmp);
+            Assert.AreEqual(forecastExample.consolidated_weather[0].min_temp, min_tmp);
+            Assert.AreEqual(forecastExample.consolidated_weather[0].the_temp, tmp);
+            Assert.AreEqual(forecastExample.consolidated_weather[0].applicable_date, applicable_date);
+            Assert.AreEqual(forecastExample.consolidated_weather[0].air_pressure, air_pressure);
+
+
+        }
+
+        [TestMethod]
+        public void ReturnFirstDayWeather()
+        {
+
+            Forecast forecastExample = GetWeatherForLondon().Result;
+
+            var wrapper = new TestWrapper();
+            var wm = new WrapperMethod(wrapper);
+
+            string cityName = "London";
+
+            Forecast forecast = wm.GetForecastForNextFiveDaysMockup(cityName).Result;
+
+            var weather_state_name = forecast.consolidated_weather[1].weather_state_name;
+            var max_tmp = forecast.consolidated_weather[1].max_temp;
+            var min_tmp = forecast.consolidated_weather[1].min_temp;
+            var tmp = forecast.consolidated_weather[1].the_temp;
+            var applicable_date = forecast.consolidated_weather[1].applicable_date;
+            var air_pressure = forecast.consolidated_weather[1].air_pressure;
+
+
+
+            Assert.AreEqual(forecastExample.consolidated_weather[1].weather_state_name, weather_state_name);
+            Assert.AreEqual(forecastExample.consolidated_weather[1].max_temp, max_tmp);
+            Assert.AreEqual(forecastExample.consolidated_weather[1].min_temp, min_tmp);
+            Assert.AreEqual(forecastExample.consolidated_weather[1].the_temp, tmp);
+            Assert.AreEqual(forecastExample.consolidated_weather[1].applicable_date, applicable_date);
+            Assert.AreEqual(forecastExample.consolidated_weather[1].air_pressure, air_pressure);
+
+
+        }
+
+        [TestMethod]
+        public void ReturnSecondDayWeather()
+        {
+
+            Forecast forecastExample = GetWeatherForLondon().Result;
+
+            var wrapper = new TestWrapper();
+            var wm = new WrapperMethod(wrapper);
+
+            string cityName = "London";
+
+            Forecast forecast = wm.GetForecastForNextFiveDaysMockup(cityName).Result;
+
+            var weather_state_name = forecast.consolidated_weather[2].weather_state_name;
+            var max_tmp = forecast.consolidated_weather[2].max_temp;
+            var min_tmp = forecast.consolidated_weather[2].min_temp;
+            var tmp = forecast.consolidated_weather[2].the_temp;
+            var applicable_date = forecast.consolidated_weather[2].applicable_date;
+            var air_pressure = forecast.consolidated_weather[2].air_pressure;
+
+
+
+            Assert.AreEqual(forecastExample.consolidated_weather[2].weather_state_name, weather_state_name);
+            Assert.AreEqual(forecastExample.consolidated_weather[2].max_temp, max_tmp);
+            Assert.AreEqual(forecastExample.consolidated_weather[2].min_temp, min_tmp);
+            Assert.AreEqual(forecastExample.consolidated_weather[2].the_temp, tmp);
+            Assert.AreEqual(forecastExample.consolidated_weather[2].applicable_date, applicable_date);
+            Assert.AreEqual(forecastExample.consolidated_weather[2].air_pressure, air_pressure);
+
+
+        }
+
+        [TestMethod]
+        public void ReturnThirdDayWeather()
+        {
+
+            Forecast forecastExample = GetWeatherForLondon().Result;
+
+            var wrapper = new TestWrapper();
+            var wm = new WrapperMethod(wrapper);
+
+            string cityName = "London";
+
+            Forecast forecast = wm.GetForecastForNextFiveDaysMockup(cityName).Result;
+
+            var weather_state_name = forecast.consolidated_weather[3].weather_state_name;
+            var max_tmp = forecast.consolidated_weather[3].max_temp;
+            var min_tmp = forecast.consolidated_weather[3].min_temp;
+            var tmp = forecast.consolidated_weather[3].the_temp;
+            var applicable_date = forecast.consolidated_weather[3].applicable_date;
+            var air_pressure = forecast.consolidated_weather[3].air_pressure;
+
+
+
+            Assert.AreEqual(forecastExample.consolidated_weather[3].weather_state_name, weather_state_name);
+            Assert.AreEqual(forecastExample.consolidated_weather[3].max_temp, max_tmp);
+            Assert.AreEqual(forecastExample.consolidated_weather[3].min_temp, min_tmp);
+            Assert.AreEqual(forecastExample.consolidated_weather[3].the_temp, tmp);
+            Assert.AreEqual(forecastExample.consolidated_weather[3].applicable_date, applicable_date);
+            Assert.AreEqual(forecastExample.consolidated_weather[3].air_pressure, air_pressure);
+
+
+        }
+
+
 
 
 

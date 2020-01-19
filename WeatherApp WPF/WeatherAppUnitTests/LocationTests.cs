@@ -10,8 +10,10 @@ namespace WeatherAppUnitTests
     [TestClass]
 
 
+
     public class LocationTests
     {
+
         [TestMethod]
         public async Task CheckConvertingCityLondonToId()
         {
@@ -69,7 +71,7 @@ namespace WeatherAppUnitTests
         }
 
         [TestMethod]
-        public async Task ReturnZeroIfPossibleLocationsCountNotEqual1()
+        public async Task ReturnZeroIfPossibleLocationsCountNotEqualOne()
         {
             Location l = new Location();
             string cityName = "san";
@@ -82,5 +84,34 @@ namespace WeatherAppUnitTests
 
         }
 
+
+
+
+        [TestMethod]
+        public async Task ReturnZeroIfWebException()
+        {
+            Location l = new Location();
+            string cityName = "London";
+            int expectedResult = 0;
+
+            // To test this method you need to uncomment line belowe to simulate lack of internet connection 
+            // Warning: Rest of the unit tests will throw errors because of it
+
+            //System.Diagnostics.Process.Start("ipconfig", "/release");
+
+            int result = await l.ConvertCityNameToId(cityName);
+
+            // 'Return' web connection
+            //System.Diagnostics.Process.Start("ipconfig", "/renew");
+
+
+            Assert.AreEqual(expectedResult, result);
+
+        }
+
+      
+
     }
+
+    
 }
