@@ -1,6 +1,5 @@
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\WeatherAppClassLibrary.dll
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\WeatherAppClassLibrary.pdb
-D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.csprojAssemblyReference.cache
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.dll
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.pdb
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\bin\Debug\WeatherAppClassLibrary.dll.config
@@ -28,3 +27,4 @@ C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherA
 C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.csproj.CopyComplete
 C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.dll
 C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.pdb
+D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppClassLibrary\obj\Debug\WeatherAppClassLibrary.csprojAssemblyReference.cache

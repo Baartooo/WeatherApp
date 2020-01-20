@@ -4,13 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WeatherApp_WPF"
+        Icon="weatherAppIcon.ico"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         mc:Ignorable="d"
         Title="WeatherApp" Height="600" Width="900">
     <Grid  Background="#8c94a1" Height="569" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="892">
         <Button Content="CHECK WEATHER" HorizontalAlignment="Left" Margin="431,323,0,0" VerticalAlignment="Top" Width="264" Height="36" FontWeight="Bold" Click="GetStarted"/>
-        <Image Margin="0,92,580,0" Source="/img/weatherAppIcon.png" Stretch="Fill" HorizontalAlignment="Right" Width="224" Height="156" VerticalAlignment="Top" />
+        <Image Margin="0,92,613,0" Source="/img/weatherAppIcon.png" Stretch="Fill" HorizontalAlignment="Right" Width="180" Height="180" VerticalAlignment="Top" />
         <Label Content="&#xD;&#xA;WEATHER APP" HorizontalAlignment="Left" Margin="412,0,0,342" VerticalAlignment="Bottom" Height="156" Width="375" FontSize="48" FontWeight="Bold" Background="{x:Null}" Foreground="White"/>
     </Grid>
 </Window>
