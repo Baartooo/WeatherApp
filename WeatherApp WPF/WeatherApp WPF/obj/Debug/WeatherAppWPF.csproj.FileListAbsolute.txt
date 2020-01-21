@@ -77,3 +77,4 @@ C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherA
 C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherAppWPF.csproj.CopyComplete
 C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF.exe
 C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherApp WPF\obj\Debug\WeatherApp WPF.pdb
+D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherApp WPF\bin\Debug\WeatherAppClassLibrary.xml
