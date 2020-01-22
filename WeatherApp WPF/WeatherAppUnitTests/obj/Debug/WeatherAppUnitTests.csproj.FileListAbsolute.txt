@@ -43,3 +43,4 @@ C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherA
 C:\Users\PaulinaWróbel\Source\Repos\Baartooo\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\pl\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\pl\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Studia\3semestr\Programowanie obiektowe c#\WeatherApp\WeatherApp WPF\WeatherAppUnitTests\bin\Debug\WeatherAppClassLibrary.xml

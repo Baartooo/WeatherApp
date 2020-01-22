@@ -8,15 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/c.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/h.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/hc.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/hr.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/lc.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/lr.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/s.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/sl.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/sn.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/t.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("weatherappicon.ico")]
 
 

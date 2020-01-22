@@ -18,7 +18,7 @@ namespace WeatherAppClassLibrary
         /// Get Forecast for next 3 days.
         /// </summary>
         /// <param name="cityName">City name.</param>
-        /// <returns> Forecast.</returns>
+        /// <returns>Object type forecast.</returns>
         public static async Task<Forecast> GetForecastForNextFiveDays(string cityName)
         {
             int woeid;
@@ -41,8 +41,8 @@ namespace WeatherAppClassLibrary
         /// Get forecast by date.
         /// </summary>
         /// <param name="cityName">City name.</param>
-        /// <param name="date">Table of next 3 days.</param>
-        /// <returns></returns>
+        /// <param name="date"> Array of one day's date.</param>
+        /// <returns>Object type forecast.</returns>
         public static async Task<List<Weather>> GetForecastByDate(string cityName, string[] date)
         {
             int woeid;

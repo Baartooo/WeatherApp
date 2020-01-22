@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WeatherAppClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:WeatherAppClassLibrary.Forecast">
+            <summary>
+            The Forecast class represents model of recieved JSON data and methods for getting forecast on concrete days.
+            </summary>
+        </member>
+        <member name="M:WeatherAppClassLibrary.Forecast.GetTodaysWeather">
+            <summary>
+            Get consolidated weather for today.
+            </summary>
+            <returns>Returns object of type Weather</returns>
+        </member>
+        <member name="M:WeatherAppClassLibrary.Forecast.GetFirstDaysWeather">
+            <summary>
+            Get consolidated weather for first day.
+            </summary>
+            <returns>Returns object of type Weather</returns>
+        </member>
+        <member name="M:WeatherAppClassLibrary.Forecast.GetSecondDaysWeather">
+            <summary>
+            Get consolidated weather for second day.
+            </summary>
+            <returns>Returns object of type Weather</returns>
+        </member>
+        <member name="M:WeatherAppClassLibrary.Forecast.GetThirdDaysWeather">
+            <summary>
+            Get consolidated weather for third day.
+            </summary>
+            <returns>Returns object of type Weather</returns>
+        </member>
+        <member name="T:WeatherAppClassLibrary.ForecastByDate">
+            <summary>
+            The ForecastByDate class handle Weather list.
+            </summary>
+        </member>
+        <member name="T:WeatherAppClassLibrary.ForecastGetter">
+            <summary>
+            The ForecastGetter class contains methods to get forecast for next 3 days or by date.
+            </summary>
+        </member>
+        <member name="M:WeatherAppClassLibrary.ForecastGetter.GetForecastForNextFiveDays(System.String)">
+            <summary>
+            Get Forecast for next 3 days.
+            </summary>
+            <param name="cityName">City name.</param>
+            <returns>Object type forecast.</returns>
+        </member>
+        <member name="M:WeatherAppClassLibrary.ForecastGetter.GetForecastByDate(System.String,System.String[])">
+            <summary>
+            Get forecast by date.
+            </summary>
+            <param name="cityName">City name.</param>
+            <param name="date"> Array of one day's date.</param>
+            <returns>Object type forecast.</returns>
+        </member>
+        <member name="T:WeatherAppClassLibrary.Location">
+            <summary>
+            The Location class contains location variables and getting location from JSON.
+            </summary>
+        </member>
+        <member name="M:WeatherAppClassLibrary.Location.ConvertCityNameToId(System.String)">
+            <summary>
+            Download cityName from input to convert it to ID.
+            </summary>
+            <param name="cityName">Name of city.</param>
+            <returns>Returns possible Location</returns>
+        </member>
+        <member name="T:WeatherAppClassLibrary.Parent">
+            <summary>
+            Model of the parent object of the city.
+            </summary>
+        </member>
+        <member name="T:WeatherAppClassLibrary.Weather">
+            <summary>
+            The Weather class handle weathercast elements.
+            </summary>
+        </member>
+    </members>
+</doc>
