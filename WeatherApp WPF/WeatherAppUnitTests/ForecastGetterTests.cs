@@ -84,6 +84,22 @@ namespace WeatherAppUnitTests
         }
 
         [TestMethod]
+        public void ReturnNullIfWrongCityNameProvided()
+        {
+            var wrapper = new TestWrapper();
+            var wm = new WrapperMethod(wrapper);
+
+            string cityName = "San Fransisco";
+
+            Task expectedOutput = null;
+            var result = wm.GetForecastForNextFiveDaysMockup(cityName).Result;
+
+
+            Assert.AreEqual(expectedOutput, result);
+
+        }
+
+        [TestMethod]
         public void ReturnForecast()
         {
             var wrapper = new TestWrapper();
@@ -139,7 +155,7 @@ namespace WeatherAppUnitTests
 
         }
         [TestMethod]
-        public void ReturnNullBecauseOfWoeidEqualsZero()
+        public void ReturnNullBecauseWoeidEqualsZero()
         {
             var wrapper = new TestWrapper();
             var wm = new WrapperMethod(wrapper);
