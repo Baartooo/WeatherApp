@@ -25,6 +25,7 @@ Projekt został podzelony na 3 części:
 
 ## Użytkowanie Aplikacji
 
+![](gif.gif)
 
 ## Autorzy
 
